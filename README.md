@@ -9,8 +9,9 @@ root@your-jail# portsnap fetch extract
 root@your-jail# portsnap update
 root@your-jail# pkg update -f
 root@your-jail# pkg install git 
+root@your-jail# git clone https://github.com/jazconsulting/freenas-shinobi-install.git
 ```
-Once you pull it, simply
+Once you pull it, simply make the script executable and run it
 
  ```sh
  root@your-jail# chmod +x ./freenas-shinobi-install/shinobi-freenas-installer.csh
